@@ -1,4 +1,4 @@
-package net.proselyte.leetcode.algorithms;
+package net.proselyte.leetcode.algorithms.strings;
 
 import java.util.HashMap;
 import java.util.Map;

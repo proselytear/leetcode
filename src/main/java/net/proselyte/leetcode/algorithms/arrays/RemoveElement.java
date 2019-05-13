@@ -1,4 +1,4 @@
-package net.proselyte.leetcode.algorithms;
+package net.proselyte.leetcode.algorithms.arrays;
 
 import java.util.Arrays;
 

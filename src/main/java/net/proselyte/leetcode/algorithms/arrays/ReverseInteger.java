@@ -1,4 +1,4 @@
-package net.proselyte.leetcode.algorithms;
+package net.proselyte.leetcode.algorithms.arrays;
 
 /**
  * Given a 32-bit signed integer, reverse digits of an integer.

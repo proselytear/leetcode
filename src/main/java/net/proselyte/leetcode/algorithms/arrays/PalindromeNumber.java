@@ -1,7 +1,9 @@
-package net.proselyte.leetcode.algorithms;
+package net.proselyte.leetcode.algorithms.arrays;
 
 
 /**
+ * Problem #9
+ *
  * Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.
  * <p>
  * Example 1:
