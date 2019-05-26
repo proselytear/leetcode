@@ -1,6 +1,5 @@
 package net.proselyte.leetcode.algorithms.arrays;
 
-import java.util.Arrays;
 import java.util.HashSet;
 
 /**
