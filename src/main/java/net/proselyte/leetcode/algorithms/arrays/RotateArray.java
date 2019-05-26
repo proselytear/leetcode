@@ -1,6 +1,7 @@
 package net.proselyte.leetcode.algorithms.arrays;
 
 import java.util.Arrays;
+import java.util.HashSet;
 
 /**
  * Problem #189
@@ -30,10 +31,13 @@ import java.util.Arrays;
 
 public class RotateArray {
     public static void main(String[] args) {
-        int[] nums = new int[]{1, 2, 3, 4, 5, 6, 7};
-        System.out.println("Before: " + Arrays.toString(nums));
-        rotate(nums, 5);
-        System.out.println("After: " + Arrays.toString(nums));
+        HashSet shortSet = new HashSet();
+        for (short i = 0; i < 100; i++) {
+            shortSet.add(i);
+            shortSet.remove(i - 1);
+        }
+        System.out.println(shortSet.size());
+
     }
 
     public static void rotate(int[] nums, int k) {
